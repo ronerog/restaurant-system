@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1730828538 source:/home/ronerog/Documentos/projeto-programacao-I/restaurant-system/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"login.c"
+
+1730827417 /home/ronerog/Documentos/projeto-programacao-I/restaurant-system/login.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"login.h"
+	"menu.h"
+
+1730829644 source:/home/ronerog/Documentos/projeto-programacao-I/restaurant-system/menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"menu.h"
+	"clear.h"
+
+1730819237 /home/ronerog/Documentos/projeto-programacao-I/restaurant-system/menu.c
+	<stdio.h>
+	<stdlib.h>
+
+1730823877 source:/home/ronerog/Documentos/projeto-programacao-I/restaurant-system/menu.h
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1730818770 source:/home/ronerog/Documentos/projeto-programacao-I/restaurant-system/main.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"login.h"
+
+1730825733 /home/ronerog/Documentos/projeto-programacao-I/restaurant-system/login.h
+
+1730825729 /home/ronerog/Documentos/projeto-programacao-I/restaurant-system/menu.h
+
+1730826407 /home/ronerog/Documentos/projeto-programacao-I/restaurant-system/clear.h
+
