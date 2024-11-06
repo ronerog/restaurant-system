@@ -6,8 +6,8 @@
 #include "clear.h"
 
 void menu() {
-    float total = 0;  // Inicializa o total do pedido
-    char listapedido[50][50] = {0};  // Inicializa a lista do pedido
+    float total = 0; 
+    char listapedido[50][50];  
     setlocale(LC_ALL, "");
     clear_screen();
 
