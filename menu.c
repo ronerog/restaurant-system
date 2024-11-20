@@ -35,7 +35,7 @@ void menu() {
 
         switch (opcao) {
             case 1:
-                adicionar_item(pedidos, &length, &total, "Hamburg�o", 30.00);
+                adicionar_item(pedidos, &length, &total, "Hamburgao", 30.00);
                 break;
             case 2:
                 adicionar_item(pedidos, &length, &total, "Frangolino", 26.00);
@@ -54,20 +54,20 @@ void menu() {
                 confirmar_pedido(total);
                 return;
             default:
-                printf("Op��o inv�lida! Tente novamente.\n");
+                printf("Opcao invalida! Tente novamente.\n");
         }
     } while (opcao != 0);
 }
 
 void exibir_menu() {
     printf("            Menu            \n");
-    printf("1- Hamburg�o: R$ 30,00\n");
-    printf("(P�o, Queijo Prato, Hamburguer Bovino de 160g, Alface e Tomate.)\n");
+    printf("1- Hamburgao: R$ 30,00\n");
+    printf("(Pao, Queijo Prato, Hamburguer Bovino de 160g, Alface e Tomate.)\n");
     printf("2- Frangolino: R$ 26,00\n");
-    printf("(P�o, Peito de Frango empanado, picles e maionese da casa.)\n");
+    printf("(Pao, Peito de Frango empanado, picles e maionese da casa.)\n");
     printf("3- Batata Frita: R$ 10,00\n");
     printf("4- Onion Rings: R$ 12,00\n");
-    printf("(Cebolas empanadas e fritas. Acompanha molho ros�.)\n");
+    printf("(Cebolas empanadas e fritas. Acompanha molho rose.)\n");
     printf("5- Refrigerante: R$ 5,00\n");
     printf("0- Finalizar pedido\n");
     printf("Selecione um item ou aperte 0 para finalizar o pedido: \n");
@@ -76,7 +76,7 @@ void exibir_menu() {
 int selecionar_opcao() {
     int opcao;
     if (scanf("%d", &opcao) != 1) {
-        printf("Entrada inv�lida! Tente novamente.\n");
+        printf("Entrada invalida! Tente novamente.\n");
         return -1;
     }
     return opcao;
@@ -127,7 +127,7 @@ void confirmar_pedido(float total) {
     int confirma;
     printf("\nConfirmar pedido?\n");
     printf("1- Sim\n");
-    printf("2- N�o\n");
+    printf("2- Nao\n");
     scanf("%d", &confirma);
 
     if (confirma == 1) {
@@ -135,7 +135,7 @@ void confirmar_pedido(float total) {
     } else if (confirma == 2) {
         printf("Pedido cancelado.\n");
     } else {
-        printf("Op��o inv�lida! Tente novamente.\n");
+        printf("Opcao invalida! Tente novamente.\n");
     }
 }
 
@@ -145,16 +145,16 @@ void selecionar_refrigerante(Pedido pedidos[], int *length, float *total) {
 
     do {
         printf("\nRefrigerante selecionado.\n");
-        printf("Escolha o tipo:\n1- Coca-Cola\n2- Guaran�\n");
+        printf("Escolha o tipo:\n1- Coca-Cola\n2- Guarana\n");
         scanf("%d", &tipo);
         if (tipo == 1) {
             strcpy(descricao, "Coca-Cola");
             break;
         } else if (tipo == 2) {
-            strcpy(descricao, "Guaran�");
+            strcpy(descricao, "Guarana");
             break;
         } else {
-            printf("Op��o Inv�lida. Por favor, escolha 1 ou 2.\n");
+            printf("Opcao Invalida. Por favor, escolha 1 ou 2.\n");
         }
     } while (tipo != 1 && tipo != 2);
 

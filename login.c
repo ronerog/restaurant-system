@@ -31,7 +31,7 @@ void login() {
     int tentativas = 0;
 
     while (tentativas < MAX_ATTEMPTS) {
-        capturar_entrada("Coloque seu usuário: ", usuario, LOGIN_MAX);
+        capturar_entrada("Coloque seu usuario: ", usuario, LOGIN_MAX);
         capturar_entrada("Coloque sua senha: ", tentativa_senha, PASSWORD_MAX);
 
         if (strcmp(login, usuario) == 0 && strcmp(senha, tentativa_senha) == 0) {
