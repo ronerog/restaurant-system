@@ -31,7 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="clear.h" />
 		<Unit filename="login.c">
 			<Option compilerVar="CPP" />
 			<Option compile="0" />
