@@ -43,12 +43,13 @@
 
 1730826407 /home/ronerog/Documentos/projeto-programacao-I/restaurant-system/clear.h
 
-1731955894 source:c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\main.c
+1732136776 source:c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<locale.h>
-	"login.c"
+	"login.h"
+	"menu.h"
 
 1732129395 c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\login.c
 	<stdio.h>
@@ -58,9 +59,9 @@
 	"login.h"
 	"menu.h"
 
-1730825733 c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\login.h
+1732132509 c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\login.h
 
-1730825729 c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\menu.h
+1732136524 c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\menu.h
 
 1732129392 source:c:\users\roner\onedrive\documentos\projeto-programacao-i\restaurant-system\menu.c
 	<stdio.h>

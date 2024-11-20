@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
-#include "login.c"
-
+#include "login.h"
+#include "menu.h"
 
 int main() {
     setlocale(LC_ALL, "Portuguese");

@@ -3,6 +3,7 @@
 #include <string.h>
 #include <locale.h>
 #include "menu.h"
+#include "login.h"
 
 #define MAX_ITEMS 50
 #define MAX_DESC 50
